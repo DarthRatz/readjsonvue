@@ -1,0 +1,30 @@
+{
+  "uuid": "1",
+  "name": "mytestDuckObject",
+  "comments": "This is where I have notes about my object",
+  "product": "DuckCreed",
+  "parentOf": [
+    {
+      "name": "childObject",
+      "uuid": "123",
+      "product": "DuckCreed"
+    }
+  ],
+  "childOf": {
+    "name": "parentObject",
+    "uuid": "231",
+    "product": "DuckCreed"
+  },
+  "mapping": [
+    {
+      "name": "efnolMap",
+      "uuid": "456",
+      "product": "eFNOL"
+    },
+    {
+      "name": "cpodMap",
+      "uuid": "789",
+      "product": "Cpods"
+    }
+  ]
+}
